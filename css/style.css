@@ -202,13 +202,13 @@ ul {
     top: 50%;
     transform: translateY(-50%);
 }
-.home-intro .intro-content .intro-caption span {
-    font-size: 26px;
+.home-intro .intro-content .intro-caption span.intro-cap,.about .box-content .content-left .content span.intro-cap {
+    font-size: 30px;
     font-weight: 300;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     letter-spacing: 1px;
-    text-transform: uppercase;
+   /*  text-transform: capitalize; */
 }
 .home-intro .intro-content .intro-caption h2 {
     font-size: 70px;
@@ -727,10 +727,10 @@ ul {
         padding-left: 0;
     }
 
-    .home-intro .intro-content .intro-caption span {
+    .home-intro .intro-content .intro-caption span .intro-cap,.about .box-content .content-left .content span.intro-cap{
         display: inline-block;
-        margin-bottom: 20px;
-        font-size: 22px;
+        margin-bottom:10px;
+        font-size: 26px;
     }
     .home-intro .intro-content .intro-caption h2 {
         font-size: 40px;
@@ -847,9 +847,9 @@ ul {
         background-size: cover;
       /*   background-repeat: no-repeat; */
     }
-    .home-intro .intro-content .intro-caption span {
+    .home-intro .intro-content .intro-caption span .intro-cap,.about .box-content .content-left .content span.intro-cap{
         display: inline-block;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 22px;
     }
     .home-intro .intro-content .intro-caption h2 {
